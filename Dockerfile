@@ -1,4 +1,5 @@
 FROM kalilinux/kali-rolling
 
-RUN apt update && apt upgrade -y && apt autoremove -y && apt clean
-RUN apt install kali-linux-top10 kali-linux-wireless man-db exploitdb -y
+RUN apt update
+RUN DEBIAN_FRONTEND=noninteractive apt install kali-tools-headless -y
+RUN DEBIAN_FRONTEND=noninteractive apt install kali-tools-web -y
