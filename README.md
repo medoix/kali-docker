@@ -17,3 +17,6 @@ clean
 
 # kali-tools-web installs all web testing tools
 [Meta Package Definition](https://gitlab.com/kalilinux/packages/kali-meta/blob/kali/master/debian/control#L984)
+
+# additional tools
+[ffuf](https://github.com/ffuf/ffuf)
