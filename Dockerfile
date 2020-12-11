@@ -6,4 +6,5 @@ RUN DEBIAN_FRONTEND=noninteractive apt install kali-tools-web -y
 RUN DEBIAN_FRONTEND=noninteractive \
     apt install \
     ffuf \ 
+    gobuster \
     -y

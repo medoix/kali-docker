@@ -20,3 +20,4 @@ clean
 
 # additional tools
 [ffuf](https://github.com/ffuf/ffuf)
+[gobuster](https://github.com/OJ/gobuster)
