@@ -5,19 +5,19 @@ Kali Linux Docker with Kali Tools Installed & Updated. This pipeline builds a ne
 The default 'kali-linux-docker' image provided by Kali comes with nothing installed.
 
 ## Additions to the Base
-- apt
-update
-upgrade
-autoremove
-clean
+apt update
 
-- apt install
-# kali-linux-headless installs all tools that do not require a GUI
-[Meta Package Definition](https://gitlab.com/kalilinux/packages/kali-meta/blob/kali/master/debian/control#L110)
+apt upgrade
 
-# kali-tools-web installs all web testing tools
-[Meta Package Definition](https://gitlab.com/kalilinux/packages/kali-meta/blob/kali/master/debian/control#L984)
+## APT Installs
+kali-linux-headless installs all tools that do not require a GUI - [Meta Package Definition](https://gitlab.com/kalilinux/packages/kali-meta/blob/kali/master/debian/control#L110)
 
-# additional tools
+kali-tools-web installs all web testing tools - [Meta Package Definition](https://gitlab.com/kalilinux/packages/kali-meta/blob/kali/master/debian/control#L984)
+
 [ffuf](https://github.com/ffuf/ffuf)
+
 [gobuster](https://github.com/OJ/gobuster)
+
+## Manual Installs
+
+[dnsx](https://github.com/projectdiscovery/dnsx)
