@@ -14,12 +14,11 @@ kali-linux-headless installs all tools that do not require a GUI - [Meta Package
 
 kali-tools-web installs all web testing tools - [Meta Package Definition](https://gitlab.com/kalilinux/packages/kali-meta/blob/kali/master/debian/control#L984)
 
+[Golang](https://golang.org/)
+
 [ffuf](https://github.com/ffuf/ffuf)
 
 [gobuster](https://github.com/OJ/gobuster)
-
-## Snap Installs
-[Golang](https://golang.org/)
 
 ## Manual Installs
 
