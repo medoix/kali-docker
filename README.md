@@ -18,6 +18,9 @@ kali-tools-web installs all web testing tools - [Meta Package Definition](https:
 
 [gobuster](https://github.com/OJ/gobuster)
 
+## Snap Installs
+[Golang](https://golang.org/)
+
 ## Manual Installs
 
 [dnsx](https://github.com/projectdiscovery/dnsx)

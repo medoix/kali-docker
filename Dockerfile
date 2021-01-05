@@ -8,4 +8,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt install \
     gobuster \
     -y
 
+RUN snap install go --classic
+
 RUN git clone https://github.com/projectdiscovery/dnsx.git; cd dnsx/cmd/dnsx; go build; mv dnsx /usr/local/bin/; dnsx -version; rm -rf ~/dnsx
